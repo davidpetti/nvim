@@ -24,6 +24,8 @@ use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use('ThePrimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-fugitive')
+-- use('preservim/nerdtree')
+-- use('ryanoasis/vim-devicons')
 use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v2.x',
