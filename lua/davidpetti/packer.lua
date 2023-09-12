@@ -12,12 +12,20 @@ use {
 	-- or                            , branch = '0.1.x',
 	requires = { {'nvim-lua/plenary.nvim'} }
 }
-use({ 
-	'rose-pine/neovim',
-	as = 'rose-pine',
-	config = function()
-		vim.cmd('colorscheme rose-pine')
-	end
+-- use({ 
+-- 	'rose-pine/neovim',
+-- 	as = 'rose-pine',
+--	config = function()
+--		vim.cmd('colorscheme rose-pine')
+--	end
+--})
+
+use({
+    'Mofiqul/dracula.nvim',
+    as = 'dracula',
+    config = function()
+        vim.cmd('colorscheme dracula')
+    end
 })
 
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -26,6 +34,7 @@ use('mbbill/undotree')
 use('tpope/vim-fugitive')
 -- use('preservim/nerdtree')
 -- use('ryanoasis/vim-devicons')
+use("lervag/vimtex")
 use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v2.x',
