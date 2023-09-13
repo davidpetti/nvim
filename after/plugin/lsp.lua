@@ -26,7 +26,13 @@ require('lspconfig').pyright.setup({
     lsp_zero.default_keymaps({buffer = bufnr})
   end,
 })
-require('lspconfig').java_language_server.setup({
+require('lspconfig').tailwindcss.setup({
+  capabilities = lsp_capabilities,
+  on_attach = function(client, bufnr)
+    lsp_zero.default_keymaps({buffer = bufnr})
+  end,
+})
+require('lspconfig').texlab.setup({
   capabilities = lsp_capabilities,
   on_attach = function(client, bufnr)
     lsp_zero.default_keymaps({buffer = bufnr})
