@@ -35,6 +35,9 @@ use('tpope/vim-fugitive')
 -- use('preservim/nerdtree')
 -- use('ryanoasis/vim-devicons')
 use('lervag/vimtex')
+use('vimwiki/vimwiki')
+use('nvim-tree/nvim-tree.lua')
+use('nvim-tree/nvim-web-devicons')
 use {
   'nvim-lualine/lualine.nvim',
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
