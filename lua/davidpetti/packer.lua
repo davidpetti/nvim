@@ -28,16 +28,15 @@ use({
     end
 })
 
+use('christoomey/vim-tmux-navigator')
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use('ThePrimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-fugitive')
--- use('preservim/nerdtree')
--- use('ryanoasis/vim-devicons')
 use('lervag/vimtex')
 use('vimwiki/vimwiki')
-use('nvim-tree/nvim-tree.lua')
-use('nvim-tree/nvim-web-devicons')
+-- use('nvim-tree/nvim-tree.lua')
+-- use('nvim-tree/nvim-web-devicons')
 use {
   'nvim-lualine/lualine.nvim',
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }

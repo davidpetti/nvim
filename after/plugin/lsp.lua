@@ -15,5 +15,7 @@ lspconfig.texlab.setup({})
 lspconfig.rust_analyzer.setup({})
 lspconfig.html.setup({})
 lspconfig.jdtls.setup({})
+lspconfig.dockerls.setup({})
+lspconfig.docker_compose_language_service.setup({})
 
 lsp.setup()
